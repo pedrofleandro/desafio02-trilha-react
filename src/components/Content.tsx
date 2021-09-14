@@ -1,5 +1,3 @@
-import { useEffect, useState } from 'react';
-
 import { MovieCard } from './MovieCard';
 
 interface MovieProps {

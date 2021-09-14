@@ -8,13 +8,6 @@ interface GenreResponseProps {
   title: string;
 }
 
-interface GenreIdProps {
-  genre: {
-    setGenreId: number;
-    genreId: number;
-  }
-}
-
 export function SideBar(props: any) {
   // Complete aqui
   const [genres, setGenres] = useState<GenreResponseProps[]>([]);
